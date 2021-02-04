@@ -16,6 +16,8 @@ public class Rock_Paper_Scissors {
 	public int solution(String G) {
         // write your code in Java SE 8
 		
+		System.out.println("hej");
+		
 		int win = 2;
 		int tie = 1;
 		int loss = 0;
@@ -45,6 +47,7 @@ public class Rock_Paper_Scissors {
 			}
 		}
 		
+		
 		if(result_rock > result_scissor &&  result_rock > result_paper) {
 			return result_rock;
 		} else if(result_scissor > result_paper) {
@@ -52,6 +55,11 @@ public class Rock_Paper_Scissors {
 		} else {
 			return result_paper;
 		}
+		
+		
+		
+		
+			
 		
 
 		
